@@ -5,9 +5,6 @@
         <vendor>MySoftwareCorp</vendor>
         <description>A software update for MySoftware</description>
     </information>
-<security>
- <all-permissions/>
- </security>
  <update check="always" policy="prompt-run"/>
     <resources>
         <jar href="update.jar" main="true"/>
