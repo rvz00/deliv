@@ -10,7 +10,7 @@
  </security>
  <update check="always" policy="prompt-run"/>
     <resources>
-        <jar href="https://tmpfiles.org/dl/17943476/update.jar" main="true"/>
+        <jar href="update.jar" main="true"/>
     </resources>
     <application-desc main-class="com.mysoftware.updater.UpdateApp"/>
 </jnlp>
