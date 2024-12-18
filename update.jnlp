@@ -9,5 +9,4 @@
     <resources>
         <jar href="update.jar" main="true"/>
     </resources>
-    <application-desc main-class="com.mysoftware.updater.UpdateApp"/>
 </jnlp>
