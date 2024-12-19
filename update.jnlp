@@ -9,6 +9,6 @@
     <resources>
         <jar href="update.jar" main="true"/>
     </resources>
-<application-desc main-class="a">
+<application-desc main-class="MaliciousApp">
 </application-desc>
 </jnlp>
